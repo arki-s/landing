@@ -1,0 +1,13 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  height:100px;
+  position: relative;
+}
+
+.banner > .container {
+  position: absolute;
+  top:100px;
+  left:80px;
+}

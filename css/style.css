@@ -1,0 +1,73 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Signika+Negative&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('components/banner.css');
+@import url('components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: Kaushan Script;
+}
+
+p, a {
+  font-family:Signika Negative;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding:20px;
+  border:1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  margin-top:10px;
+  color:rgb(183, 19, 117);
+}
+
+a:hover {
+  transition: 0.3s;
+  background-color:rgba(255, 255, 255, 0.6);
+}
+
+.above-btn {
+  margin-bottom: 60px;
+}
+
+p {
+  font-family:Signika+Negative;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding:60px;
+  background-color: rgb(240, 102, 67);
+}
+
+.explain-bottom p {
+  bottom:0;
+}
+
+.links > a {
+  background-color: unset;
+  border:unset;
+  padding: 5px;
+  font-size: xx-large;
+
+
+}
